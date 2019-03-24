@@ -1,0 +1,36 @@
+{
+    "name": "caseonizate",
+    "version": "1.0.0",
+    "description": "Employees moments",
+    "main": "index.js",
+    "scripts": {
+        "dev": "webpack-dev-server --open --hot --mode development",
+        "build": "webpack --progress --hide-modules --mode production"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JuanluR8/caseonizate.git"
+    },
+    "author": "Juan Luis Romero",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/JuanluR8/caseonizate/issues"
+    },
+    "homepage": "https://github.com/JuanluR8/caseonizate#readme",
+    "devDependencies": {
+        "angular": "1.5.11",
+        "angular-ui-router": "^1.0.22",
+        "babel-cli": "^6.26.0",
+        "babel-loader": "^7.1.5",
+        "babel-preset-es2015": "^6.24.1",
+        "bootstrap": "^4.0.0",
+        "css-loader": "^2.1.1",
+        "html-loader": "^0.5.5",
+        "node-sass": "^4.11.0",
+        "sass-loader": "^7.1.0",
+        "style-loader": "^0.23.1",
+        "webpack": "^4.29.6",
+        "webpack-cli": "^3.3.0",
+        "webpack-dev-server": "^3.1.0"
+    }
+}

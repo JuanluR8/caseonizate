@@ -1,0 +1,15 @@
+<div class="albums container">
+    <ul class="collection with-header">
+        <li class="collection-header">
+            <h4>{{$ctrl.username}} Albums</h4>
+        </li>
+        <li class="collection-item">
+            <input class="form-input" type="text" placeholder="Search by title" ng-model="filterTitle.title"/>
+        </li>
+        <a class="collection-item" ng-repeat="album in $ctrl.albumsList | filter: filterTitle" data="album" ui-sref="photos({ albumId: album.id})"">
+            <li>
+                {{album.title}}
+            </li>
+        </a>
+    </ul>
+</div>

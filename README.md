@@ -14,12 +14,7 @@ $ npm install
 
 Launch server
 ```sh
-$ npm start
-```
-
-Build bundle
-```sh
-$ npm run build
+$ npm run dev
 ```
 
 ## Features
@@ -34,5 +29,5 @@ $ npm run build
 
 - [AngularJS](https://angularjs.org/) - Front-end framework, v1.5.11 and ES6
 - [AngularJS UI Router](https://ui-router.github.io/ng1/) - Routes module to load different views in app
-- [Bootstrap](https://getbootstrap.com/) + [Sass](https://sass-lang.com)- Just style
+- [Materialize](https://materializecss.com) + [Sass](https://sass-lang.com)- Just style
 - [Webpack](https://webpack.js.org) - Bundle app

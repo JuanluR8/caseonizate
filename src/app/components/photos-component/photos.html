@@ -1,0 +1,13 @@
+<div class="photos container">
+    <div class="card bg-light" style="max-width: 54rem; margin-bottom: 10px; text-align: center">
+        <h4 class="card-header" style="padding: 20px;">Photos in '{{$ctrl.albumTitle}}' album</h4>
+    </div>
+    <div class="row">
+        <div class="col" ng-repeat="photo in $ctrl.photosList" data="photo">
+            <div class="card" style="margin-bottom: 10px;">
+                <img ng-src="{{photo.url}}" class="card-img-top" />
+                <p class="card-body card-text custom-card-text">{{photo.title}}</p>
+            </div>
+        </div>
+    </div>
+</div>
